@@ -22,7 +22,8 @@ body {
     font-size:2rem;
     font-family:fantasy;
     text-align:center;
-    margin:auto;
+    margin-top:auto;
+    margin-bottom:auto;
 }
 
 .center {
