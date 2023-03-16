@@ -22,7 +22,7 @@ body {
     font-size:2rem;
     font-family:fantasy;
     text-align:center;
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 .center {
@@ -35,7 +35,8 @@ body {
 
 .sets {
     background-color:green;
-    margin:2%;
     max-width:90%;
     border-radius: 10%;
+    display:block;
+    margin:2% auto;
 }
