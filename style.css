@@ -1,0 +1,40 @@
+* {
+     padding:0;
+     margin:0;
+}
+body {
+    width:100vw;
+    height:100vh;
+}
+
+
+.top {
+    top:0;
+    position:fixed;
+    background-color:rgb(0,150,0);
+    height:6vh;
+    width:100vw;
+    box-shadow:0 10px 30px black;
+}
+.top div {
+    color:white;
+    font-size:1rem;
+    font-family:fantasy;
+    padding:2%;
+    text-align:center;
+}
+
+.center {
+    position:fixed;
+    margin-top:6vh;
+    height:94vh;
+    width:100vw;
+    overflow-x:scroll;
+}
+
+.sets {
+    background-color:green;
+    margin:2%;
+    max-width:90%;
+    border-radius: 10%;
+}
