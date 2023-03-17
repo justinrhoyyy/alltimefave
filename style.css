@@ -38,6 +38,7 @@ body {
   margin:2% auto;
 }
 .dates {
+  margin:0 2%;
   font-size:2rem;
   font-family:fantasy;
 }
@@ -45,6 +46,13 @@ body {
   height: 100%;
   display:flex;
   overflow-y:scroll;
+}
+.row:hover {
+  height: 50%;
+  transition: 1s;
+}
+.imgs:hover {
+  box-shadow: 0 0 10px black;
 }
 
 .imgs {
