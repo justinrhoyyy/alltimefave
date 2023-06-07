@@ -12,12 +12,12 @@ body {
     top:0;
     position:fixed;
     background-color:rgb(0,150,0);
-    height:6%;
+    height: 40px;
     width:100%;
     text-align:center;
-    box-shadow:0 10px 30px black;
 }
 .top div {
+    position: relative;
     height:100%;
     color:white;
     font-size:2rem;
@@ -27,35 +27,39 @@ body {
 
 .center {
     position:fixed;
-    margin-top:6vh;
-    height:94%;
+    overflow-y: scroll;
+    margin-top: 40px;
+    height: 94%;
     width:100%;
-    overflow-x:scroll;
 }
-.row {
-  height: 40%;
+.rows {
+  position: relative;
+  height: 45vh;
   width:100%;
-  margin:2% auto;
+  border: 1px solid rgb(0,0,0);
+  background-color: rgb(200,200,200);
 }
 .dates {
-  margin:0 2%;
+  display: block;
   font-size:2rem;
   font-family:fantasy;
 }
 .images {
-  height: 100%;
-  display:flex;
-  overflow-y:scroll;
+  display: block;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  overflow-x: scroll;
 }
-.row:hover {
+.rows:hover {
   height: 50%;
   transition: .5s;
 }
-.imgs:hover {
+.img-style:hover {
   box-shadow: 0 0 10px black;
 }
 
-.imgs {
+.img-style {
     border-radius:10%;
     display:block;
     margin:2% 2%;
@@ -80,4 +84,35 @@ body {
   border:none;
   border-radius: 5px;
   box-shadow: 2px 2px 3px black;
+}
+
+@media only screen and (min-width: 768px) {
+  
+}
+
+@media only screen and (min-width: 1000px) {
+  html {
+    display: none;
+  }
+  .top {
+    height: 100px;
+  }
+  .top div {
+    font-size:5rem;
+  }
+  .center {
+    margin-top: 100px;
+  }
+  .dates {
+    font-size: 5rem;
+  }
+  
+  .view-all button {
+  font-size: 3rem;
+  border-radius: 20px;
+  }
+  .view-all button:active {
+  font-size: 3rem;
+  border-radius: 20px;
+  }
 }
