@@ -10,11 +10,12 @@ body {
 
 .top {
     top:0;
-    position:fixed;
+    position: fixed;
     background-color:rgb(0,150,0);
-    height: 40px;
-    width:100%;
-    text-align:center;
+    height: auto;
+    width: 100%;
+    z-index: 100;
+    text-align: center;
 }
 .top div {
     position: relative;
@@ -28,9 +29,10 @@ body {
 .center {
     position:fixed;
     overflow-y: scroll;
-    margin-top: 40px;
-    height: 94%;
+    padding-top: 50px;
+    height: 93%;
     width:100%;
+    background-color: rgb(200,200,200);
 }
 .rows {
   position: relative;
