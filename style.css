@@ -1,6 +1,7 @@
 * {
      padding:0;
      margin:0;
+     box-sizing: border-box;
 }
 body {
     width:100vw;
@@ -30,7 +31,7 @@ body {
     position:fixed;
     overflow-y: scroll;
     padding-top: 50px;
-    height: 93%;
+    height: 100%;
     width:100%;
     background-color: rgb(200,200,200);
 }
